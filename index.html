@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ====== HEAD ====== -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BETY GYM</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Borel&family=Hubballi&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+    
+    <!-- Tu CSS -->
+    <link rel="stylesheet" href="./sass/estilo.css">
+</head>
+<body>
+
+<!-- ====== NAVBAR ====== -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-custom shadow-sm">
+        <div class="container">
+            <img src="./sass/images/gym.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top me-2">
+            <a class="navbar-brand" href="index.html">BETY GYM</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./page/Nosotros.html">Quiénes Somos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./page/horarios.html">Horarios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://wa.me/3434578900">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<!-- ====== FIN NAVBAR ====== -->
+
+<main>
+    <!-- ====== BANNER ====== -->
+    <section class="banner d-flex align-items-center" style=" padding: 60px 0;">
+        <div class="container">
+          <div class="row align-items-center gx-3">
+            <!-- Imagen -->
+            <div class="col-md-5 text-center animate__animated animate__fadeInLeft">
+              <img src="./sass/images/muneco.png" alt="Maneki Neko comiendo fideos" class="img-fluid logo-flotante" style="max-width: 280px;">
+            </div>
+          </div>
+        </div>
+      </section>
+
+<!-- ====== FIN BANNER ====== -->
+
+<!-- ====== AMBIENTE ====== -->
+<section class="container ambiente my-5 animate__animated animate__fadeInUp">
+    <div class="row align-items-center">
+        <div class="col-md-2 mb-4 mb-md-0">
+            <h2> BETY GYM</h2><br>
+            <p>un espacio diseñado para quienes buscan entrenamiento <span class="acento">personalizado</span></p>
+            <p>en un ambiente exclusivo y acogedor. Aquí no eres un número más, sino parte de una comunidad que valora la atención individualizada y el progreso a tu medida.
+<a href="https://wa.me/3434578900" class="btn btn-custom mt-4">Inscribirse</a> </p> </div>
+            <div class="col-md-8 mb-4 mb-md-4">
+                 </div>
+        <div class="col-md-2 mb-4 mb-md-4">
+            <h2>TU GIMNASIO,TU EXPERIENCIA</h2><br>
+            <p>Disfrutá de una <span class="acento">experiencia única</span></p>
+            <p>Contamos con entrenadores que adaptan cada rutina a tus objetivos, desde mejorar tu rendimiento deportivo hasta alcanzar un bienestar integral. Olvídate de las multitudes y los entrenamientos genéricos: en Bety Gym, cada detalle está pensado para maximizar tu potencial en un entorno cómodo y motivador.
+Ven a conocernos y descubre lo que un gimnasio verdaderamente personalizado puede hacer por ti. ¡Tu transformación empieza aquí!
+.</div>
+    </div>
+</section>
+<!-- ====== FIN AMBIENTE ====== -->
+
+
+<!-- ====== PROMOCIONES ====== -->
+<section class="container promociones my-5 text-center animate__animated animate__fadeInUp">
+    <h2 class="mb-4">INFORMACION</h2>
+    <div class="row g-4">
+        <div class="col-md-4 position-relative">
+            <img src="./sass/images/Historia de Instagram lista de precios gimnasio moderno amarillo negro.png" alt="Plato promocional 1" class="img-fluid rounded shadow">
+            <span class="badge-promocion">precios</span>
+        </div>
+        <div class="col-md-4 position-relative">
+            <img src="./sass/images/Historia de Instagram lista de precios gimnasio moderno amarillo negro (1).png" alt="Plato promocional 2" class="img-fluid rounded shadow">
+            <span class="badge-promocion">Servicios</span>
+        </div>
+        <div class="col-md-4 position-relative">
+            <img src="./sass/images/Historia de Instagram lista de precios gimnasio moderno amarillo negro (2).png" alt="Plato promocional 3" class="img-fluid rounded shadow">
+            <span class="badge-promocion">Horarios</span>
+        </div>
+    </div>
+</section>
+<!-- ====== FIN PROMOCIONES ====== -->
+
+<!-- ====== RESEÑAS ====== -->
+<section class="container reseñas my-5 animate__animated animate__fadeInUp">
+    <h2 class="mb-5 text-center">OPINIONES DE NOSOTROS</h2>
+
+    <div id="testimoniosCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#testimoniosCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Testimonio 1"></button>
+            <button type="button" data-bs-target="#testimoniosCarousel" data-bs-slide-to="1" aria-label="Testimonio 2"></button>
+            <button type="button" data-bs-target="#testimoniosCarousel" data-bs-slide-to="2" aria-label="Testimonio 3"></button>
+            <button type="button" data-bs-target="#testimoniosCarousel" data-bs-slide-to="3" aria-label="Testimonio 4"></button>
+            <button type="button" data-bs-target="#testimoniosCarousel" data-bs-slide-to="4" aria-label="Testimonio 5"></button>
+            <button type="button" data-bs-target="#testimoniosCarousel" data-bs-slide-to="5" aria-label="Testimonio 6"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="testimonio p-4 rounded mx-auto" style="max-width: 600px;">
+                    <p>"Lo que más me gusta de este gimnasio es la comunidad que se ha formado. No es solo un lugar para entrenar, sino un espacio donde te sientes apoyado y motivado. ¡Cada sesión es un placer!"</p>
+                    <small>- Carlos R.</small>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="testimonio p-4 rounded mx-auto" style="max-width: 600px;">
+                    <p>-  "Las clases grupales son increíbles, los entrenadores realmente se preocupan por tu progreso y el ambiente es súper acogedor. Nunca pensé que disfrutaría tanto venir al gimnasio."</p>
+                    <small>- Maria L.</small>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="testimonio p-4 rounded mx-auto" style="max-width: 600px;">
+                    <p>-  "Un gimnasio diferente a los demás. Aquí no solo te ayudan a mejorar físicamente, sino que también te hacen sentir parte de una gran familia. ¡Totalmente recomendado!"</p>
+                    <small>- Lucía G.</small>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="testimonio p-4 rounded mx-auto" style="max-width: 600px;">
+                    <p>-  "Desde que empecé a entrenar aquí, me siento como en casa. El ambiente es cálido, el personal siempre está dispuesto a ayudar y las instalaciones están impecables. ¡Motivación al máximo!"</p>
+                    <small>- Javier A.</small>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Flechas -->
+        <button class="carousel-control-prev custom-arrow" type="button" data-bs-target="#testimoniosCarousel" data-bs-slide="prev">
+            <span aria-hidden="true">⬅️</span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+
+        <button class="carousel-control-next custom-arrow" type="button" data-bs-target="#testimoniosCarousel" data-bs-slide="next">
+            <span aria-hidden="true">➡️</span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+</section>
+<!-- ====== FIN RESEÑAS ====== -->
+
+<div class="scroll-top-trigger">
+    <a href="#" class="scroll-top-btn custom-arrow" aria-label="Subir arriba">⬆️</a>
+</div>
+</main>
+
+<!-- ====== FOOTER ====== -->
+<footer class="footer-custom text-center text-lg-start mt-5">
+    <div class="container p-4">
+      <div class="row g-4 align-items-stretch"> <!-- 👈 agregado g-4 y align-items-stretch -->
+  
+        <!-- Dirección -->
+        <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-between">
+          <div>
+            <h5 class="mb-3">Dónde encontrarnos</h5>
+            <p>Benjamín Gorostiaga 1281</p>
+          </div>
+        </div>
+  
+        <!-- Mapa -->
+        <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-between">
+          <div>
+            <h5 class="mb-3">Mapa</h5>
+            <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="150" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+  
+        <!-- Redes Sociales -->
+<div class="col-lg-4 col-md-12 d-flex flex-column justify-content-between text-center">
+    <div>
+      <h5 class="mb-3">Contacto</h5>
+      <p style="font-size: 18px;">
+        <a href="https://wa.me/3434578900" target="_blank" style="color: #000; text-decoration: none;">
+          3434578900 (WhatsApp)
+        </a>
+      </p><br>
+      <h5 class="mb-3">Redes Sociales</h5>
+      <div class="d-flex justify-content-center gap-3">
+        <a href="#"><img src="./sass/images/inst3.jpg" alt="Instagram" class="social-icon">@BETIANAFITNESS</a>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+      </div>
+    </div>
+  
+    <div class="footer-bottom text-center">
+      © 2025 Gym Bety
+    </div>
+  </footer>
+  
+  
+  
+<!-- ====== FIN FOOTER ====== -->
+
+<!-- Bootstrap Bundle JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+window.addEventListener("scroll", function() {
+document.querySelector(".scroll-top-btn").classList.toggle("visible", window.scrollY > 300);
+});
+</script>
+</body>
+</html>

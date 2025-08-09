@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ====== HEAD ====== -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BETY GYM</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Borel&family=Hubballi&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+    
+    <!-- Tu CSS -->
+    <link rel="stylesheet" href="../sass/estilo.css">
+</head>
+<body>
+<!-- ====== NAVBAR ====== -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-custom shadow-sm">
+        <div class="container">
+            <img src="./sass/images/gym.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top me-2">
+            <a class="navbar-brand" href="index.html">BETY GYM</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./Nosotros.html">Quiénes Somos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./horarios.html">Horarios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://wa.me/3434578900">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!--FIN NAVBAR-->
+ <section class="container galeria my-5 animate__animated animate__fadeInUp">
+    <div class="row align-items-center">
+        <div class="col-md-12 mb-4 mb-md-0"><h1>HISTORIA</h1>
+<p>En la zona este de Parana, entre calles de barrio que cuentan historias, nació Bety Gym. No era el gimnasio más grande ni el más moderno, pero desde el primer día, tenía algo especial: un ambiente que te hacía sentir en casa.
+Todo comenzó con Betiana, una apasionada del bienestar y la comunidad. Después de años trabajando en gimnasios impersonales, decidió que era hora de crear un espacio diferente. Quería un lugar donde cada persona, sin importar su nivel de experiencia, se sintiera bienvenida. Así, con esfuerzo y dedicación, levantó las puertas de Bety Gym.
+Desde el principio, lo más importante no fueron las máquinas ni las pesas, sino las personas. Los entrenadores conocían cada nombre, cada historia, cada meta. No había competencia desmedida, sino apoyo genuino. Aquí, celebrar un avance personal —sea levantar más peso, correr un minuto extra o simplemente ser constante— era parte de la rutina.
+Los colores cálidos, la música que motivaba sin aturdir, las charlas entre ejercicios y el rincón de café donde se compartían consejos y risas hicieron que Energía Gym se convirtiera en mucho más que un lugar de entrenamiento. Se volvió un refugio para quienes buscaban mejorar su salud sin perder el sentido de comunidad.
+Con el paso del tiempo, el gimnasio creció. Más miembros se sumaron, más historias se entrelazaron, pero su esencia nunca cambió. Hoy, cada persona que cruza su puerta sabe que aquí no solo encontrará pesas y rutinas, sino apoyo, amistad y la inspiración para seguir adelante.
+</p>
+</div>
+</div>
+</section>
+ 
+<!-- ====== RESEÑAS ====== -->
+<section class="container reseñas my-5 animate__animated animate__fadeInUp">
+    <h2 class="mb-5 text-center">GALERIA</h2>
+
+    <div id="testimoniosCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#testimoniosCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Testimonio 1"></button>
+            <button type="button" data-bs-target="#testimoniosCarousel" data-bs-slide-to="1" aria-label="Testimonio 2"></button>
+            <button type="button" data-bs-target="#testimoniosCarousel" data-bs-slide-to="2" aria-label="Testimonio 3"></button>
+            <button type="button" data-bs-target="#testimoniosCarousel" data-bs-slide-to="3" aria-label="Testimonio 4"></button>
+            <button type="button" data-bs-target="#testimoniosCarousel" data-bs-slide-to="4" aria-label="Testimonio 5"></button>
+            <button type="button" data-bs-target="#testimoniosCarousel" data-bs-slide-to="5" aria-label="Testimonio 6"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="testimonio p-4 rounded mx-auto" style="max-width: 600px;">
+                    <img src="../sass/images/banco-plano.jpg" alt="">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="testimonio p-4 rounded mx-auto" style="max-width: 600px;">
+                    <img src="../sass/images/banco-plano.jpg" alt="">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="testimonio p-4 rounded mx-auto" style="max-width: 600px;">
+                    <img src="../sass/images/banco-plano.jpg" alt="">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="testimonio p-4 rounded mx-auto" style="max-width: 600px;">
+                    <img src="../sass/images/banco-plano.jpg" alt="">
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Flechas -->
+        <button class="carousel-control-prev custom-arrow" type="button" data-bs-target="#testimoniosCarousel" data-bs-slide="prev">
+            <span aria-hidden="true">⬅️</span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+
+        <button class="carousel-control-next custom-arrow" type="button" data-bs-target="#testimoniosCarousel" data-bs-slide="next">
+            <span aria-hidden="true">➡️</span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+</section>
+<!-- ====== FIN RESEÑAS ====== -->
+
+  <!-- ====== FIN FOOTER ====== -->
+
+<!-- Bootstrap Bundle JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+window.addEventListener("scroll", function() {
+document.querySelector(".scroll-top-btn").classList.toggle("visible", window.scrollY > 300);
+});
+</script>
+</body>
+</html>
