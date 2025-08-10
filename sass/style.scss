@@ -1,16 +1,17 @@
-$colorprimario:#BE4EDC;
+$colorprimario:#9D0F57;
 /*html en todas las paginas*/
 html{
     font-size: 62.5%;
-    font-family: "Hubballi", sans-serif;
+  font-family: 'Rajdhani', sans-serif;
     text-shadow: 1px 2px 7px rgba(0,0, 0,1);
     background-image: url(./images/fondo.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+   background-position: center;
 }
 body {
-    font-family: 'Hubballi', cursive;
+    font-family: 'Rajdhani', sans-serif;
     margin: 0;
     padding: 0;
     color: white;
@@ -18,28 +19,17 @@ body {
     background: linear-gradient(to right,  #000a,transparent, #000a);
     background-color:rgba(0, 0, 0, 0.079);
 }
-
 /* ====== Fuentes ====== */
 h1, h2 {
-    font-family: 'Borel', cursive;
+     font-family: 'Rajdhani', sans-serif;
 }
-
-.descripcion-banner {
-    font-family: 'Hubballi', cursive;
-    font-size: 20px;
-    color: #000000;
-    margin-top: 0;
-    text-align: center;
-}
-
-
 
 .text-center {
     margin-top: 60px;
 }
 
 body, p, a, button, label, input, textarea, h3, h4, h5, h6 {
-    font-family: 'Hubballi', cursive;
+     font-family: 'Rajdhani', sans-serif;
     font-size: 20px;
 }
 
@@ -277,7 +267,7 @@ section {
 
 /* ====== Botón Personalizado ====== */
 .btn-custom {
-    background-color: #c7d89b;
+    background-color:#9D0F57;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -287,7 +277,7 @@ section {
 }
 
 .btn-custom:hover {
-    background-color: #a742f5;
+    background-color: #9D0F57;
     transform: scale(1.05);
     box-shadow: 0 8px 20px rgba(255, 185, 97, 0.5);
 }
@@ -410,7 +400,7 @@ img {
     position: absolute;
     bottom: 30px;
     right: 10px;
-    background-color: #ff66b2;
+    background-color:#9D0F57;
     color: white;
     padding: 10px 50px;
     font-size: 20px;
@@ -442,7 +432,7 @@ img {
     font-size: 20px;
     color: #000;
     padding: 8px 0;
-    border-bottom: 2px dashed #ffb961;
+    border-bottom: 2px dashed #9D0F57;
     margin-bottom: 8px;
 }
 
@@ -499,40 +489,111 @@ img {
 
 
 /* ====== Footer ====== */
-.footer-custom {
-    background-color:$colorprimario;
-    background-image: url('./images/rayo.png'); 
-    background-repeat: repeat-x; 
-    background-size: auto 200px;
-    background-position: bottom center; 
-    color: #000000;
-    padding: 40px 0;
-    position: relative;
-    overflow: hidden;
+
+.proyectos img {
+    height: 100%;
+    width: auto;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
 }
 
-.footer-custom h5 {
-    font-family: 'Borel', cursive;
-    color: #000;
-    font-size: 20px;
+
+.proyectos-contenedor {
+    padding-top: 60px;
+    margin-bottom: 40px;
 }
 
-.footer-custom p {
-    font-family: 'Hubballi', cursive;
-    font-size: 18px;
-    color: #000;
+.overlay {
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
-.footer-custom .social-icon {
-    width: 30px;
-    height: 30px;
-    transition: transform 0.3s;
+.proyectos:hover .overlay {
+    opacity: 1;
 }
 
-.footer-custom .social-icon:hover {
-    transform: scale(1.2);
+.proyectos:hover img {
+    opacity: 0.2;
 }
 
+.overlay p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.overlay .iconos-contenedor {
+  display: flex;
+}
+.overlay a {
+   color: black;
+   font-size: 60px;
+   margin: 10px;
+}
+/* articulos */
+.articulos {
+    min-height: 500px;
+    padding: 30px;
+}
+.articulos .card {
+width: 80%;
+max-width: 800px;
+margin: 20px;
+}
+.articulos .card-header{
+font-weight: bold;
+}
+footer{
+    min-height: 500px;
+}
+.footer-logo {
+    width: 500px;
+    margin: 10px;
+    
+}
+.footer-texto {
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+.iconos-redes-sociales a:hover {
+    color: black; 
+    background-color:rosybrown;
+    transform: scale(1.1);
+}
+.iconos-redes-sociales a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+.iconos-redes-sociales i{
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+body, html {
+  width: 100%;
+  overflow-x: hidden;
+}.seccion-oscura {
+    color: white;
+    background-color: #9D0F57;
+}
 html, body {
     height: 100%;
 }
